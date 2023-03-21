@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ResumeBuilderApplication<resume-builder>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.avanade.resumebuilder.ResumeBuilderApplication",
+            "projectName": "resume-builder",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
