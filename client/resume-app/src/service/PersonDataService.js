@@ -8,6 +8,11 @@ class PersonDataService
     {
         return axios.get(PERSON_API_URL)
     }
+    postPerson(person)
+    {
+        
+        return axios.post(PERSON_API_URL, person)
+    }
 }
 
 export default new PersonDataService()
