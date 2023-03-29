@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const PERSON_API_URL = 'http://localhost:8080/api/v1/person/'
+//const PERSON_API_URL = 'http://localhost:8080/api/v1/person/'
+const PERSON_API_URL = 'https://localhost:44356/Person'
 
 class PersonDataService
 {
